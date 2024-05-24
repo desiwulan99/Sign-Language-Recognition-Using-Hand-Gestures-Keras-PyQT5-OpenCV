@@ -34,6 +34,7 @@ def nothing(x):
 
 image_x, image_y = 64,64						#image resolution
 
+
 from keras.models import load_model
 classifier = load_model('ASLModel.h5')			#loading the model
 
